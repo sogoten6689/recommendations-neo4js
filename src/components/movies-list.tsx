@@ -1,6 +1,7 @@
 'use client'
 import { Button } from "antd";
 import { useEffect, useState } from "react";
+import {Movie} from "@/models/movie"
 
 export default  function MoviesList() {
   const [movies, setMovies] = useState<Movie[]>([]);

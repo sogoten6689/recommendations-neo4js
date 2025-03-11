@@ -1,10 +1,10 @@
 
-interface Movie {
+export interface Movie {
     title: string;
     year: MovieYear;
   }
 
-interface MovieYear {
+export interface MovieYear {
   low: number,
    high: number
 }
