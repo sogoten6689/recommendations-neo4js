@@ -1,10 +1,21 @@
 
 export interface Movie {
+    imdbId: number;
     title: string;
-    year: MovieYear;
+    imdbRating: number;
+    plot: string;
+    poster: string;
+    released: string;
+    budget: LowHigh;
+    genres: string;
+    year: LowHigh;
+    runtime: LowHigh;
+    // runtime: number;
+    // budget: number;
+    // year: number;
   }
 
-export interface MovieYear {
+export interface LowHigh {
   low: number,
-   high: number
+  high: number
 }
